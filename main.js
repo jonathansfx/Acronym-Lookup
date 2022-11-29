@@ -1,5 +1,15 @@
-//Input
-let searchBar = document.getElementById("searchBar");
-let btn = document.getElementById("btn");
+//Acronym Lookup
 
-//Process
+//HTML variables
+let abbEl = document.getElementById("abb");
+//Button Event Listener
+document.getElementById("btn").addEventListener("click", btnClicked);
+
+function btnClicked() {
+  //Input
+  let abb = document.getElementById("abb-in");
+  //If statement
+  if (abb === "html") {
+    document.getElementById(abbMeaning) = "HyperText Markup Language";
+  }
+}
