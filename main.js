@@ -1,7 +1,7 @@
 //Acronym Lookup
 
 //HTML variables
-let abbEl = document.getElementById("abb");
+let abbEl = document.getElementById("abbmeaning");
 //Button Event Listener
 document.getElementById("btn").addEventListener("click", btnClicked);
 
