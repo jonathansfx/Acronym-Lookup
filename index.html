@@ -1,23 +1,28 @@
 <!DOCTYPE html>
-<head>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="main.js"
-</head>
 <html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+  </head>
+
   <body>
     <h1>Acronym Lookup</h1>
     <hr />
     <p>
-      Acronym: an abbreciation formed from the initial letters of other words.
-      (eg. FOMO - Fear of Missing Out)
+      <strong>Acronym</strong> an abbreciation formed from the initial letters
+      of other words.
+      <i>(eg. FOMO - Fear of Missing Out)</i>
     </p>
 
     <p>
       Type an acronym in the input box below, then Search to see what the
       acronym stands for...
     </p>
-    <p><input id="abb" type="text" /> <button id="btn">Search</button></p>
+    <p>
+      <input id="input" type="text" class="input" />
+      <button id="btn" class="btn">Search</button>
+    </p>
     <hr />
-    <p id="abbmeaning">---</p>
+    <p id="output">---</p>
   </body>
 </html>

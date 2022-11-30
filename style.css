@@ -1,7 +1,18 @@
 
 
 body {
+    font-family: 'Courier New', Courier, monospace;
     margin: auto;
     width: 600px;
     text-align: center;
+}
+
+.btn {
+    background-color:rgb(46, 44, 44);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.input {
+    font-family: 'Courier New', Courier, monospace;
 }
